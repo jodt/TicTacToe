@@ -1,0 +1,19 @@
+.firstAnim {
+  display: inline-block;
+  animation: winnerAnim 1s;
+}
+
+.secondAnim {
+  display: inline-block;
+  visibility: hidden;
+  animation: winnerAnim 1s 0.8s forwards;
+}
+
+@keyframes winnerAnim {
+  0% {
+    scale: 9;
+  }
+  100% {
+    visibility: visible;
+  }
+}

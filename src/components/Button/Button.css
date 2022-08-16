@@ -1,0 +1,30 @@
+.Button {
+  width: 200px;
+  height: 60px;
+  margin: 0 30px;
+  padding: 0;
+  border-style: none;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: aliceblue;
+  box-shadow: 10px 10px 10px #00000050;
+  font-size: 1rem;
+}
+
+.Button:hover {
+  animation: animButton 0.5s ease-in-out;
+}
+
+@keyframes animButton {
+  50% {
+    scale: 1.1;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Button {
+    width: 120px;
+    height: 60px;
+    margin: 0 10px;
+  }
+}

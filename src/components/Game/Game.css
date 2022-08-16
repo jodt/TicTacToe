@@ -1,0 +1,22 @@
+.Board {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Game {
+  height: 600px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 10px 10px 10px #00000050;
+}
+
+@media only screen and (max-width: 600px) {
+  .Game {
+    height: 400px;
+    width: 400px;
+  }
+}
